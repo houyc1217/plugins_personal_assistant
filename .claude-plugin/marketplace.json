@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "personal-assistant",
-      "source": ".",
+      "source": "./",
       "description": "Comprehensive modular personal assistant with task management, note-taking, scheduling, research, and daily planning capabilities. Includes 6 powerful commands and 5 specialized AI agents for maximum productivity.",
       "version": "1.0.0",
       "author": {
@@ -36,25 +36,7 @@
         "agent",
         "automation"
       ],
-      "category": "productivity",
-      "features": [
-        "Task Management - Create, track, and prioritize tasks with intelligent organization",
-        "Note Taking - Rapid capture and powerful search with knowledge graph capabilities",
-        "Schedule Management - Calendar optimization and time blocking",
-        "Research Assistant - Web research, fact-checking, and knowledge synthesis",
-        "Daily Planning - Morning briefings, reviews, and productivity coaching"
-      ],
-      "requirements": {
-        "claude-code": ">=1.0.0"
-      },
-      "tags": [
-        "macos",
-        "productivity-tools",
-        "task-tracker",
-        "note-organizer",
-        "schedule-planner",
-        "ai-assistant"
-      ]
+      "category": "productivity"
     }
   ]
 }
