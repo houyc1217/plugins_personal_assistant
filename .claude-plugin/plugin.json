@@ -1,0 +1,41 @@
+{
+  "name": "personal-assistant",
+  "version": "1.0.0",
+  "description": "Comprehensive modular personal assistant with task management, note-taking, scheduling, research, and daily planning capabilities",
+  "author": {
+    "name": "Personal Assistant Plugin",
+    "url": "https://github.com/houyc1217/plugins_personal_assistant"
+  },
+  "homepage": "https://github.com/houyc1217/plugins_personal_assistant",
+  "repository": "https://github.com/houyc1217/plugins_personal_assistant",
+  "license": "MIT",
+  "keywords": [
+    "personal-assistant",
+    "productivity",
+    "task-management",
+    "note-taking",
+    "scheduling",
+    "calendar",
+    "daily-planning",
+    "research",
+    "knowledge-management",
+    "time-management",
+    "gtd",
+    "organization"
+  ],
+  "commands": [
+    "./commands/task-add.md",
+    "./commands/task-list.md",
+    "./commands/note-quick.md",
+    "./commands/note-search.md",
+    "./commands/schedule-view.md",
+    "./commands/daily-brief.md"
+  ],
+  "agents": [
+    "./agents/task-manager.md",
+    "./agents/note-organizer.md",
+    "./agents/schedule-planner.md",
+    "./agents/research-assistant.md",
+    "./agents/daily-assistant.md"
+  ]
+}
