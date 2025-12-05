@@ -1,0 +1,60 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "personal-assistant-marketplace",
+  "version": "1.0.0",
+  "description": "Official marketplace for the Personal Assistant plugin - comprehensive modular personal assistant with task management, note-taking, scheduling, research, and daily planning",
+  "owner": {
+    "name": "Personal Assistant Plugin",
+    "email": "houyc1217@github.com"
+  },
+  "plugins": [
+    {
+      "name": "personal-assistant",
+      "source": ".",
+      "description": "Comprehensive modular personal assistant with task management, note-taking, scheduling, research, and daily planning capabilities. Includes 6 powerful commands and 5 specialized AI agents for maximum productivity.",
+      "version": "1.0.0",
+      "author": {
+        "name": "houyc1217",
+        "url": "https://github.com/houyc1217/plugins_personal_assistant"
+      },
+      "homepage": "https://github.com/houyc1217/plugins_personal_assistant",
+      "repository": "https://github.com/houyc1217/plugins_personal_assistant",
+      "license": "MIT",
+      "keywords": [
+        "personal-assistant",
+        "productivity",
+        "task-management",
+        "note-taking",
+        "scheduling",
+        "calendar",
+        "daily-planning",
+        "research",
+        "knowledge-management",
+        "time-management",
+        "gtd",
+        "organization",
+        "agent",
+        "automation"
+      ],
+      "category": "productivity",
+      "features": [
+        "Task Management - Create, track, and prioritize tasks with intelligent organization",
+        "Note Taking - Rapid capture and powerful search with knowledge graph capabilities",
+        "Schedule Management - Calendar optimization and time blocking",
+        "Research Assistant - Web research, fact-checking, and knowledge synthesis",
+        "Daily Planning - Morning briefings, reviews, and productivity coaching"
+      ],
+      "requirements": {
+        "claude-code": ">=1.0.0"
+      },
+      "tags": [
+        "macos",
+        "productivity-tools",
+        "task-tracker",
+        "note-organizer",
+        "schedule-planner",
+        "ai-assistant"
+      ]
+    }
+  ]
+}

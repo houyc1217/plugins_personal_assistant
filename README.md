@@ -29,7 +29,40 @@ This plugin implements industry best practices for AI personal assistants with a
 - **Daily Brief** (`/daily-brief`) - Comprehensive morning briefing with tasks, schedule, and priorities
 - **Daily Assistant Agent** - Morning planning, daily reviews, routine building, and productivity coaching
 
-## 🚀 Quick Start
+## ⚡ Quick Install (2 Commands)
+
+Install this plugin instantly from the marketplace:
+
+```bash
+# Step 1: Add the marketplace
+/plugin marketplace add houyc1217/plugins_personal_assistant
+
+# Step 2: Install the plugin
+/plugin install personal-assistant
+```
+
+That's it! 🎉 All commands and agents are now available. Try `/task-add "My first task" high` to get started.
+
+### Verify Installation
+
+```bash
+# See all available commands
+/help
+```
+
+You should see 6 new commands:
+- `/task-add` - Create tasks
+- `/task-list` - View tasks
+- `/note-quick` - Capture notes
+- `/note-search` - Search notes
+- `/schedule-view` - View calendar
+- `/daily-brief` - Daily briefing
+
+And 5 specialized agents ready to help with complex workflows!
+
+---
+
+## 🚀 Alternative Installation Methods
 
 ### Installation on macOS
 
@@ -701,10 +734,61 @@ Built following best practices from:
 
 Issues, suggestions, and contributions are welcome! This plugin is designed to be modular and extensible—feel free to add new modules or customize existing ones for your workflow.
 
+### How to Contribute
+
+1. **Report Issues**: [GitHub Issues](https://github.com/houyc1217/plugins_personal_assistant/issues)
+2. **Submit PRs**: Fork, modify, and submit pull requests
+3. **Share Ideas**: Suggest new features or improvements
+4. **Star the Repo**: If you find it useful! ⭐
+
+## 🌐 Community & Distribution
+
+### Install from Marketplace
+
+**Recommended**: Use the 2-command install (see top of README)
+
+```bash
+/plugin marketplace add houyc1217/plugins_personal_assistant
+/plugin install personal-assistant
+```
+
+### Also Available On
+
+- **Community Marketplaces**: Submit requests to include in curated marketplaces
+- **Claude Code Commands Directory**: [claudecodecommands.directory](https://claudecodecommands.directory/)
+
+### Share with Others
+
+Recommend this plugin to colleagues:
+```bash
+# Just share these 2 lines!
+/plugin marketplace add houyc1217/plugins_personal_assistant
+/plugin install personal-assistant
+```
+
 ---
 
+## 📄 Plugin Information
+
+**Name**: personal-assistant
 **Version**: 1.0.0
-**Last Updated**: 2025-12-04
+**Last Updated**: 2025-12-05
+**License**: MIT
 **Compatibility**: Claude Code (all versions)
+**Category**: Productivity
+
+**Repository**: https://github.com/houyc1217/plugins_personal_assistant
+**Marketplace**: `houyc1217/plugins_personal_assistant`
+
+### Plugin Stats
+
+- **6 Commands** - Quick-action slash commands
+- **5 Agents** - Specialized AI assistants
+- **5 Core Modules** - Task, Note, Schedule, Research, Daily Planning
+- **13+ macOS Integrations** - Native productivity features
+
+---
 
 Happy productivity! 🚀
+
+Built with ❤️ following [Claude Code best practices](https://www.anthropic.com/engineering/claude-code-best-practices) and [AI assistant research](https://www.researchgate.net/publication/388449530_A_Modular_Framework_for_AI_Personal_Assistants_Design_Implementation_and_Scalability).
